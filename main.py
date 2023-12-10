@@ -1,6 +1,7 @@
-from event_types.Match import Match
+from utils.init_match_from_xml import init_match_from_xml
 
-test_match = Match(match_id='885882')
+
+match = init_match_from_xml(match_id="885882")
 print(1)
 print(2)
 
