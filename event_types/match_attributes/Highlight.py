@@ -21,5 +21,12 @@ class Highlight:
         return {
             "match_id": self.match_id,
             "summary_id": self.summary_id,
-            # ToDo: остальные атрибуты
+            "match_time": self.match_time,
+            "title": self.title,
+            "video_url": self.video_url,
+            "image_url": self.image_url,
+            "start_time_ms": self.start_time_ms,
+            "start_time_date": self.start_time_date,
+            "end_time_ms": self.end_time_ms,
+            "end_time_date": self.end_time_date
         }

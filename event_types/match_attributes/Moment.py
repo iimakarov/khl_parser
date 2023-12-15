@@ -23,5 +23,14 @@ class Moment:
         return {
             "match_id": self.match_id,
             "moment_id": self.moment_id,
-            # ToDo: остальные атрибуты
+            "match_time": self.match_time,
+            "player_id": self.player_id,
+            "player_name": self.player_name,
+            "title": self.title,
+            "video_url": self.video_url,
+            "image_url": self.image_url,
+            "start_time_ms": self.start_time_ms,
+            "start_time_date": self.start_time_date,
+            "end_time_ms": self.end_time_ms,
+            "end_time_date": self.end_time_date
         }
